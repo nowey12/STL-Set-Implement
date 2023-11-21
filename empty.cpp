@@ -1,4 +1,4 @@
-/*
+Ôªø/*
 MIT License
 
 Copyright (c) 2023 Inha-Open-Source-Team-BBBig
@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Created by º’øπø¯ on 11/20/23.
+Created by ÏÜêÏòàÏõê on 11/20/23.
  */
 #include <iostream>
 #include "AVLTree.h"
