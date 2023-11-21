@@ -1,4 +1,4 @@
-/*
+Ôªø/*
 MIT License
 
 Copyright (c) 2023 Inha-Open-Source-Team-BBBig
@@ -21,13 +21,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Created by º’øπø¯ on 11/20/23.
+Created by ÏÜêÏòàÏõê on 11/20/23.
  */
 #include <iostream>
 #include "AVLTree.h"
 
 int AVLTree::size(Node* node) {
-	if (node == nullptr) // setø° ¿˙¿Âµ» ø¯º“∞° 0∞≥¿œ ∞ÊøÏ
+	if (node == nullptr) // setÏóê Ï†ÄÏû•Îêú ÏõêÏÜåÍ∞Ä 0Í∞úÏùº Í≤ΩÏö∞
 		return 0;
-	return 1 + size(node->left) + size(node->right); // ¿Á±Õ
+	return 1 + size(node->left) + size(node->right); // Ïû¨Í∑Ä
 }
