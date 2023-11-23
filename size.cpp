@@ -26,8 +26,11 @@ Created by 손예원 on 11/20/23.
 #include <iostream>
 #include "AVLTree.h"
 
-int AVLTree::size(Node* node) {
-	if (node == nullptr) // set에 저장된 원소가 0개일 경우
-		return 0;
-	return 1 + size(node->left) + size(node->right); // 재귀
+int AVLTree::size(Node* root) {
+	int count = 0;
+	if (root != nullptr) {// set이 비어있지 않은 경우
+		count = 1 + size(root->left) + size(root->right);
+	}
+	std::cout << "Number of nodes: " << count << std::endl;
+	return count;
 }
