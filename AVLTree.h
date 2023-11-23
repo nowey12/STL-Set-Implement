@@ -43,7 +43,7 @@ public:
 
     int maximum();
 
-    bool empty();
+    void empty();
 
     int size();
 
