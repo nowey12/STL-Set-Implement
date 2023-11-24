@@ -26,11 +26,11 @@ Created by 손예원 on 11/20/23.
 #include <iostream>
 #include "AVLTree.h"
 
-void AVLTree::empty(Node* root) {
-	if (size(root) == 0) {
-		std::cout << "1" << std::endl;
-	}
-	else {
-		std::cout << "0" << std::endl;
-	}
+void AVLTree::empty() {
+    if (sizeOfTree == 0) {
+        cout << 1 << '\n';
+    }
+    else {
+        cout << 0 << '\n';
+    }
 }
