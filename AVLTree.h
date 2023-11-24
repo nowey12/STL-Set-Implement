@@ -37,6 +37,7 @@ typedef Node *NodePointer;
 class AVLTree {
 private:
     NodePointer root;
+    int count;
 
 public:
     int minimum();
