@@ -26,11 +26,6 @@ Created by 손예원 on 11/20/23.
 #include <iostream>
 #include "AVLTree.h"
 
-int AVLTree::size(Node* root) {
-	int count = 0;
-	if (root != nullptr) {// set이 비어있지 않은 경우
-		count = 1 + size(root->left) + size(root->right);
-	}
-	std::cout << "Number of nodes: " << count << std::endl;
-	return count;
+void AVLTree::size() {
+    cout << sizeOfTree << '\n';
 }
