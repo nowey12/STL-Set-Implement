@@ -37,16 +37,21 @@ typedef Node *NodePointer;
 class AVLTree {
 private:
     NodePointer root;
-    int count;
+    int sizeOfTree;
 
 public:
+    AVLTree() {
+        root = nullptr;
+        sizeOfTree = 0;
+    };
+
     int minimum();
 
     int maximum();
 
     void empty();
 
-    int size();
+    void size();
 
     int find();
 
